@@ -1,0 +1,8 @@
+a= "understanding"
+b= "  variables"
+c = a+b
+print (a)
+print(b)
+print(c)
+c= """This is a multiline string it is used in python"""
+print(c)
