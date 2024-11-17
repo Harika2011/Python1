@@ -1,0 +1,21 @@
+name1 = "Harika"
+name2 = "Harry Porter"
+name3 = "Ron Weasley"
+name4 = "Hermione Granger"
+name5 = "Draco Malfoy"
+
+bd1 = "11th April"
+bd2 = "31st July"
+bd3 = "1st March"
+bd4 = "19th September"
+bd5 = "5th June"
+
+print(" My name is", name1, "and my birthday is on", bd1)
+
+print(" My fav character is", name2, "and his birthday is on", bd2)
+
+print("His friends name is ", name3, "and his birthday is on", bd3)
+
+print("Their friend's name is ", name4, "and her birthday is on", bd4)
+
+print( name2 , "is not in good terms with ", name5, "and his birthday is on", bd5)
