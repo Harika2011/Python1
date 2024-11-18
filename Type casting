@@ -1,0 +1,25 @@
+name = input("Enter ur name")
+age = int(input("\nEnter ur age"))
+is_studying = input("\nEnter True or False if u are studying")
+weight = float(input("\nEnter ur weight in decimals"))
+
+
+print("Name -" ,name)
+print("\nData Type of Name is",type(name))
+
+print("Age - ",age)
+print("\nData Type of age is",type(age))
+
+print("Is Studying - ",is_studying)
+print("\nData Type of Studying  is",type(is_studying))
+
+print("weight - ",weight)
+print("\nData Type of weight  is",type(weight))
+
+print("\n\n After Type casting..................")
+age = str(age)
+print("\nData Type of age is",type(age))
+weight = int(weight)
+print("\nData Type of weight  is",type(weight))
+
+print("\n Congratulations!! U have survived my prgram!!!!")
