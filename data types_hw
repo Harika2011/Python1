@@ -1,0 +1,4 @@
+String = "Congratulations"
+
+print("The Main order of the string is",(String[0::1]))
+print("\nThe Reversing order of the string is",String[::-1])
