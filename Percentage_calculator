@@ -1,0 +1,8 @@
+Maths = int(input("enter ur marks in maths"))
+English = int(input("enter ur marks in english"))
+Science = int(input("enter ur marks in science"))
+Hindi = int(input("enter ur marks in hindi"))
+total = int(input("enter the maximum marks for ur examination"))
+sum = Maths+English+Science+Hindi
+per = (sum/(total*4))*100
+print(per,"%")
