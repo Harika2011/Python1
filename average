@@ -1,0 +1,14 @@
+H = int(input("Enter the height of ur 1st tree"))
+e = int(input("Enter the height of ur 2nd tree"))
+i = int(input("Enter the height of ur 3rd tree"))
+g = int(input("Enter the height of ur 4th tree"))
+h = int(input("Enter the height of ur 5th tree"))
+t = int(input("Enter the height of ur 6th tree"))
+
+Total_height = H+e+i+g+h+t
+
+num_trees = 6
+
+#Average_height = Total_height / num_trees
+
+print ("the is the average height" , Total_height / num_trees)
