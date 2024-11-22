@@ -1,0 +1,13 @@
+cost_price = float(input("Enter the cost of ur item"))
+selling_price = float(input("Enter how much are u selling it for"))
+
+profit = selling_price - cost_price
+
+loss = cost_price - selling_price
+if (selling_price > cost_price):
+    print("It's a profit of",profit,"rupees")
+else:
+    print("it's a loss of",loss,"rupees")
+
+
+
