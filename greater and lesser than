@@ -1,0 +1,7 @@
+num = int(input("Enter any number to chekc if it 's gretaer or less than 15"))
+
+if (num>15):
+    print(num,"is greater than 15")
+else:
+    print (num,"less than 15")
+    
