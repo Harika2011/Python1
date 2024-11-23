@@ -1,0 +1,7 @@
+user = int(input("Enter the temperature in your area in degree celsius"))
+
+if (user<=25):
+    print("It's Winter")
+
+if (user>25):
+    print("It's summer")
