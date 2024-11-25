@@ -1,0 +1,12 @@
+a = int(input("Enter any number of ur choice(first num)"))
+b = int(input("Enter any number of ur choice(second num)"))
+
+if (a>0 and b>0):
+    print("both are positive")
+elif (a>0 and b<0):
+    print(a,"is a positive and",b," is negative")
+elif (a<0 or b>0):
+    print(a,"is a negative and",b," is positive")
+else:
+    print("both are negative")
+
