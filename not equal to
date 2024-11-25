@@ -1,0 +1,14 @@
+a = int(input("Enter any number(1st num)")) 
+b = int(input("Enter any number(2nd num)")) 
+
+if a != b:
+    print("They are not equal")
+else:
+    print("They are equal")
+
+c= int(input("Enter some num"))
+
+if c%2 != 0:
+    print("It is an odd")
+else:
+    print("it's an even")
