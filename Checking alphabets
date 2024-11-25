@@ -1,0 +1,9 @@
+c= input("Enter a character")
+
+if len(c)<1:
+    print("\nInvalid input")
+else:
+    if (c>= 'a' and c<= 'z')or (c>= 'A' and c<= 'Z'):
+        print("It's a alphabet")
+    else:
+        print("It's not an alphabet")
