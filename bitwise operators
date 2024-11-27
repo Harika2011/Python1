@@ -1,0 +1,8 @@
+num1 = int(input("Enter any num "))
+
+print("Num >> 1 =",num1 >>1)
+
+num2 = int(input("Enter a negative num"))
+
+print("Num<<1=",num2<<1)
+
