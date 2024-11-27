@@ -1,0 +1,21 @@
+num1 = int(input("Enter any number of your choice"))
+
+if (type(num1) is int):
+    print("true")
+else:
+    print("false")
+
+num2 = 1234.987
+
+if (type(num2) is not float):
+    print("true")
+else:
+    print("false")
+
+num3 = int(input("Enter any number"))
+num4 = int(input("Enter the same num as above or a different one"))
+
+if (num3 is num4):
+    print("they have the same value")
+else:
+    print("They are different numbers")
