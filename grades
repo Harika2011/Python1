@@ -1,0 +1,31 @@
+M = int(input("Enter your marks in math"))
+Sci =  int(input("Enter your marks in sci"))
+SST = int(input("Enter your marks in social"))
+Eng = int(input("Enter your marks in Eng"))
+code = int(input("Enter your marks in computers"))
+
+average = (M+Sci+SST+Eng+code)/5
+
+
+if 91 <= average <= 100:
+    print("Grade = A1")
+elif 81<= average <=90:
+    print("Grade = A2")
+elif 71<= average <=80:
+    print("Grade = B1")
+elif 61<= average <=70:
+    print("Grade = B2")
+elif 51<= average <=60:
+    print("Grade = C1")
+elif 41<= average <=50:
+    print("Grade = C2")
+elif 31<= average <=40:
+    print("Grade = D")
+elif 21<= average <=30:
+    print("Grade = D2")
+elif 11<= average <=20:
+    print("Grade = E1")
+elif 0<= average <=10:
+    print("Grade = E2")
+else:
+    print("Invalid marks")
