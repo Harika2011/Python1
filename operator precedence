@@ -1,0 +1,22 @@
+a = int(input("Enter a number"))
+
+b = int(input("Enter a number"))
+
+c = int(input("Enter a number"))
+
+d = int(input("Enter a number"))
+
+e = (d+c)**b-a
+
+print("The expression is  (var1+var2)**var3-var4/2")
+
+print("The answer to ur question is",e)
+
+f = input("Enter ur name")
+
+g = int(input("Enter ur age"))
+
+if  len(f) == 5 or len(f) == 6 and g >= 10:
+    print("HI!Welcome 😎")
+else:
+    print("Bye!🫠🤟🏻👋🏻")
