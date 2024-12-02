@@ -1,0 +1,10 @@
+a = 10
+
+b = 20
+
+c = 30
+
+ts = a+b+c
+avs = ts/3
+
+print("The average speed of the cyclists is",avs,"🚵🏻")
