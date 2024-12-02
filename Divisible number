@@ -1,0 +1,11 @@
+a = int(input("Enter a number"))
+
+b = int(input("Enter a divisor"))
+
+if b !=0:
+    if a%b==0:
+        print("\n",a,"is divisible by",b)
+    else:
+        print("\n",a,"is not divisible by",b)
+else:
+    print("Division by zero is not allowed🤪")
