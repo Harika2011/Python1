@@ -1,0 +1,16 @@
+a = 38
+
+b = 36
+
+c = 56
+
+d = 40
+
+e = a*d
+print("The sum of 40 numbers is" , sum)
+
+f =  e-(b-c)
+print("The new sum",f)
+
+g = f/d
+print("The new mean is",g)
