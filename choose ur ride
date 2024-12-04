@@ -1,0 +1,28 @@
+print("Hi,What would u like to choose")
+category =int(input("1 for bike and 2 for car"))
+
+ride =""
+
+if category == 1:
+    print("You have selected bike choose ur subcategory")
+    subcategory = int(input("1 for Sports bike and 2 for a cruiser bike"))
+
+    if subcategory == 1:
+        ride="Sports Bike"
+    elif subcategory== 2:
+        ride="Cruiser Bike"
+    else:
+        ride ="Invalid sub category slected for bike"
+elif category == 2:
+    print("You have selected car choose ur subcategory")
+    subcategory = int(input("1 for Sedan and 2 for a SUV"))
+    if subcategory == 1:
+        ride = "Sedan"
+    elif subcategory == 2:
+        ride ="SUV"
+    else:
+        ride="Invalid sub category slected for car"
+else:
+    ride = "invalid catergory"
+
+print("Your selected ride is",ride)
