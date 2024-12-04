@@ -1,0 +1,31 @@
+units = float(input("Enter consumer units"))
+
+per_unit = 0
+tax = 0
+cal = 0
+a = 0
+
+if units < 50:
+    per_unit = 2.60
+    tax = 25
+    cal = units*2.60
+    a = 0
+elif units>=50 and units<100:
+    per_unit = 3.25
+    tax = 35
+    cal = (units-50)*3.25
+    a = 130
+elif units>=100 and units<200:
+    per_unit = 5.26
+    tax = 45
+    cal=(units-100)*5.26
+    a = 130+162.5
+else:
+    per_unit=8.45
+    tax = 75
+    cal=(units-200)*8.45
+    a = 130+162.5+526
+
+bill = a+cal+tax
+
+print("The electricity bill for",units,"is",bill)
