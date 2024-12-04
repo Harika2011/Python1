@@ -1,0 +1,13 @@
+attendance = int(input("What is your attendance for this year"))
+
+medical = int(input("1 for yes and 2 for no"))
+
+if attendance >= 75:
+    print("You are eligibale to attend the exam")
+else:
+     if medical == 1:
+          print("It's ok you can take the exam")
+     else:
+          print("You may  not take the exam as you have a low attendance")
+
+
