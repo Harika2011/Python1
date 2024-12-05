@@ -1,0 +1,7 @@
+user = int(input("Hi, Please enter ur age"))
+
+if user>= 10 and user<= 20:
+    print("You are welcome to enrol in class")
+else:
+    print("Sorry!,You cannot enroll ")
+    
