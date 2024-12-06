@@ -1,0 +1,4 @@
+user = int(input("Enter the number form which u want reverse "))
+
+for i in range(user,0,-1):
+    print(i)
