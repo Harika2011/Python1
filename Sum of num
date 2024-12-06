@@ -1,0 +1,7 @@
+user = int(input("Enter the number of sums u want:"))
+
+sum = 0
+
+for i in range(0,user+user):
+    sum += i
+    print("The sum is",sum)
