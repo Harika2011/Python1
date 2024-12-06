@@ -1,0 +1,8 @@
+user = input("Enter a word which u want to reverse")
+
+reversed_string = ""
+
+for char in user:
+    reversed_string = char+reversed_string
+
+print("The reverse would be",reversed_string)
