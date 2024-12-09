@@ -1,0 +1,25 @@
+number = int(input("Enter a  numbers"))
+
+number_end = int(input("Enter another num"))
+
+odd_sum = 0
+even_sum = 0 
+total_sum = 0
+
+start_number = number
+
+while start_number<= number_end:
+    if start_number % 2==0:
+        even_sum+= start_number
+    else:
+        odd_sum+=start_number
+
+    total_sum += start_number
+    start_number+=1
+    
+
+
+
+print("Sum of odd numbers",odd_sum)
+print("Sum of even numbers",even_sum)
+print("Total sum",total_sum)
