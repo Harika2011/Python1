@@ -1,0 +1,15 @@
+user = int(input("HI!,Enter a number"))
+
+original = user
+
+sum_of_powers = 0 
+
+while user>0:
+    digit = user % 10
+    sum_of_powers += digit ** 3
+    user //= 10 
+
+if sum_of_powers == original:
+    print(original,"Is an armstrong number")
+else:
+    print(original,"is not an armstrong number")
