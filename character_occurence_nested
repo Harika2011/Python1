@@ -1,0 +1,15 @@
+string = input("Please enter your word")
+
+char = input("Enter the character whose occurence you want to check")
+
+i = 0
+
+occurence = 0 
+
+while(i<len(string)):
+
+    if (string[i] == char):
+        occurence = occurence+1
+    i = i+1
+
+print("THe total number of times",char,"has occured is",occurence,"😎")
