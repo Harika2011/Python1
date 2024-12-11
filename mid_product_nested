@@ -1,0 +1,23 @@
+num = int(input("Enter a number"))
+
+a = num
+numlen = 0
+
+while a>0:
+    numlen = numlen+1
+    a = int(a/10)
+    
+if numlen>=4:
+    numlen = int(numlen/2)
+    check = 0
+    while num>0:
+        remaning = num%10
+        if check == numlen:
+            mid1 =  remaning
+        elif check ==(numlen-1):
+            mid2 = remaning
+        num = int(num/10)
+        check = check+1
+    product = mid1*mid2
+
+    print("\n Product of the mid digits",product)
