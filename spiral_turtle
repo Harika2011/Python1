@@ -1,0 +1,28 @@
+import turtle
+
+screen = turtle.Screen()
+screen.title("Square inside a square")
+screen.bgcolor("white")
+
+pen = turtle.Turtle()
+pen.speed(1)
+
+pen.penup()
+pen.goto(-100,100)
+pen.pendown()
+
+for _ in range(4):
+    pen.forward(200)
+    pen.right(90)
+
+pen.penup()
+pen.goto(-50,50)
+pen.pendown()
+
+for _ in range(4):
+    pen.forward(100)
+    pen.right(90)
+
+pen.hideturtle
+
+screen.mainloop
