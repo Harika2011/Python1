@@ -1,0 +1,24 @@
+import turtle
+
+screen = turtle.Screen()
+screen.title("Turtle polygon")
+screen.setup(800,600)
+screen.bgcolor("Light blue")
+
+pen = turtle.Turtle()
+pen.speed(1)
+pen.pensize(10)
+pen.color("Dark blue")
+
+sides = 6
+length = 200
+
+angle = 360/sides
+
+for _ in range(sides):
+    pen.forward(length)
+    pen.left(angle)
+
+pen.hideturtle()
+
+screen.mainloop()
