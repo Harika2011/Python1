@@ -1,0 +1,20 @@
+import turtle
+
+screen = turtle.Screen
+spiral = turtle.Turtle()
+spiral.speed(10)
+
+side = 10
+num_sq = 50
+
+for _ in range(num_sq):
+    for _ in range(4):
+        spiral.forward(side)
+        spiral.right(90)
+        side = side - 10
+    side += 1
+    
+    
+
+
+screen.mainloop()
