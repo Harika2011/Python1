@@ -1,0 +1,12 @@
+def autum_weather ():
+    return "Autum is cool, with leaves falling onto the ground "
+
+def spring_weather():
+    return "Spring is refreshing,with colorful flowers blooming on the trees"
+
+
+a = autum_weather()
+b = spring_weather()
+
+print("The weather in AUTUM is ", a)
+print("The weather in SPRING is ", b)
