@@ -1,0 +1,4 @@
+def well_wishes():
+    print("Hi,how are you ")
+
+well_wishes()
