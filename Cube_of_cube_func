@@ -1,0 +1,12 @@
+def find_cube (n):
+
+    return n ** 3
+
+def execute (n):
+    if n % 3 == 0:
+        return find_cube(n)
+    else:
+        print("Not divisible by 3")
+
+print(execute(9))
+print(execute(10))     
