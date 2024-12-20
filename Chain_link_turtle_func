@@ -11,9 +11,9 @@ def draw_spiral_8():
     pen.pensize(2)
     
    
-    for i in range(36):  # Repeat 36 times to form a circular pattern
+    for i in range(36):  
         
-        pen.circle(50, 360)  # Circle with radius 50
+        pen.circle(50, 360)  
    
         pen.penup()
         pen.goto(pen.xcor(), pen.ycor() - 50)
@@ -21,7 +21,7 @@ def draw_spiral_8():
       
         pen.circle(50, 360)
        
-        pen.right(10)  # Rotate the turtle slightly to form the spiral
+        pen.right(10)  
     
  
     pen.hideturtle()
