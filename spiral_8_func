@@ -1,0 +1,31 @@
+import turtle
+
+def draw_spiral_8():
+   
+    
+    screen = turtle.Screen()
+    screen.bgcolor("black")
+    pen = turtle.Turtle()
+    pen.speed(0)
+    pen.color("cyan")
+    pen.pensize(2)
+    
+   
+    for i in range(36):  # Repeat 36 times to form a circular pattern
+        
+        pen.circle(50, 360)  # Circle with radius 50
+   
+        pen.penup()
+        pen.goto(pen.xcor(), pen.ycor() - 50)
+        pen.pendown()
+      
+        pen.circle(50, 360)
+       
+        pen.right(10)  # Rotate the turtle slightly to form the spiral
+    
+ 
+    pen.hideturtle()
+    screen.mainloop()
+
+
+draw_spiral_8()
